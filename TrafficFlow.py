@@ -40,7 +40,7 @@ cur.execute("CREATE TABLE t (LinkRef, LinkDescription, Date, TimePeriod, Average
 con.commit()
 
 #This process goes to the Highway website, downloads the traffic data into a database then analyses the data.
-month_source = ["Jan", "Feb", "Mar"]
+month_source = ["Jan", "Feb"]
 year_source = [2009, 2010, 2011, 2012]
 for i in year_source:
     for j in month_source:
