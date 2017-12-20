@@ -49,6 +49,8 @@ for i in year_source:
         #Highways datatypes are not consistent, pre-2010 .txt is used, now it's .csv.
         if i == 2009:
             file_name = "SRNData" + j + str(i) + ".txt"
+        else if i == 2012
+            file_name = "SRNData" + j + str(i) + ".txt"
         else: file_name = "SRNData" + j + str(i) + ".csv"
         
         print url_address
